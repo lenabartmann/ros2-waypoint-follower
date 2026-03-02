@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lane_follower</name>
+  <version>0.0.1</version>
+  <description>A ROS2 package providing a simple node for autonomous waypoint navigation of a mobile robot using odometry feedback.</description>
+  <maintainer email="lena.bartmann@iu-study.org">Lena Bartmann</maintainer>
+  <license>MIT</license>
+
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+
+  <test_depend>pytest</test_depend>
+
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
