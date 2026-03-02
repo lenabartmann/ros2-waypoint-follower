@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>teleop_manual</name>
+  <version>0.0.1</version>
+  <description>A ROS2 package providing a node for manual teleoperation of a mobile robot via velocity commands.</description>
+  <maintainer email="lena.bartmann@iu-study.org">Lena Bartmann</maintainer>
+  <license>MIT</license>
+
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+
+  <test_depend>pytest</test_depend>
+
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
+
